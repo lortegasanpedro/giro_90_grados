@@ -5,6 +5,7 @@ function girarIzquierda90Grados () {
     // basic.pause(100)
     // maqueenPlusV2.controlMotorStop(maqueenPlusV2.MyEnumMotor.AllMotor)
     leerBrujula()
+    // if (nueva_direccion - grados_brujula) % 360 <= 180:
     if (gradosBrujula < gradosGiro) {
         // Direccion adelante
         maqueenPlusV2.controlMotor(maqueenPlusV2.MyEnumMotor.LeftMotor, maqueenPlusV2.MyEnumDir.Forward, 50)
